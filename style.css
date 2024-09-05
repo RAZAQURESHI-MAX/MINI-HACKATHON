@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.Main {
+  width: 100vw;
+  height: 100vh;
+}
+nav {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.logonav {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  align-items: center;
+}
+ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+li {
+  list-style: none;
+  font-size: 25px;
+}
+.Navbtn {
+  height: 75px;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: white;
+}
+.bookingParent {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 200px;
+}
+.lftBkHead {
+  font-size: 45px;
+  max-width: 360px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+.lftBkTxt {
+  max-width: 350px;
+}
+.bookBtn {
+  height: 45px;
+  width: 180px;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+.companiesNav {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.companiesImgs {
+  width: 120px;
+}
+.servicesMain {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.services {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+.servicesTxt {
+  max-width: 540px;
+  font-size: 20px;
+}
+.services h1 {
+  background-color: greenyellow;
+}
+
+@media screen and (min-width: 320px) {
+  li {
+    display: none;
+  }
+  .Navbtn {
+    display: none;
+  }
+  .menu {
+    display: block;
+    width: 30px;
+  }
+  nav {
+    /* justify-content: space-between; */
+  }
+}
